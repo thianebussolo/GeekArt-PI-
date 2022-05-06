@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>GeekArt</title>
+</head>
+<body>
+    <header>
+        <img width="80px" height="80px" src="../GEEK ART (PI)/img/logo.png" alt="">
+        <img width="30px" height="30px"src="../GEEK ART (PI)/img/img_350151.png" alt="">
+        <img width="30px" height="30px"src="../GEEK ART (PI)/img/img_350151.png" alt="">
+        <img width="30px" height="30px"src="../GEEK ART (PI)/img/img_350151.png" alt="">
+        <img width="30px" height="30px"src="../GEEK ART (PI)/img/img_350151.png" alt="">
+    </header>
+    <main>
+        <h1>REFINE SUA BUSCA</h1>
+        <span class="search">
+            <input type="search" name="buscar" id="buscar"> <button>Pesquisar</button>
+        </span>
+
+        <div class="tudo">
+            <div class="filter">
+                
+                <label class="title">Preço</label><br>
+                <ul>
+                    <a href="#">Até R$50</a><br>
+                    <a href="#">R$50 a R$150</a><br>
+                    <a href="#">R$150 a R$300</a><br>
+                    <a href="#">R$300 a R$500</a><br>
+                    <a href="#">Mais de R$500</a><br>
+                </ul>
+                <span class="rs">R$</span>
+                <input type="text" maxlength="9" id="low-price" placeholder="Min." name="low-price" class="price">
+                <input type="text" maxlength="9" id="high-price" placeholder="Max." name="high-price" class="price"> <button>Ir</button><br>
+                
+                <br>
+                <form action="">
+                    <label class="title">Funko Pop</label><br>
+                    <input type="checkbox" name="funko" id="funko_GoT" value="game of thrones"><label for="funko_GoT"> Game of Thrones</label><br>
+                    <input type="checkbox" name="funko" id="funko_poke"><label for="funko_poke"> Pokémon</label><br>
+                    <input type="checkbox" name="funko" id="funko_vingadores"><label for="funko_vingadores"> Vingadores</label><br>
+                    <input type="checkbox" name="funko" id="funko_rem"><label for="funko_rem"> Ricky e Morty</label><br>
+                    <input type="checkbox" name="funko" id="funko_mortal"><label for="funko_mortal"> Mortal Kombat</label><br>
+                    <button type="reset">Limpar</button><br><br>
+                </form>
+                <form action="">
+                    <label class="title">Camisetas</label><br>
+                    <input type="checkbox" name="cam_GoT" id="cam_GoT"><label for="cam_GoT"> Game of Thrones</label><br>
+                    <input type="checkbox" name="cam_poke" id="cam_poke"><label for="cam_poke"> Pokémon</label><br>
+                    <input type="checkbox" name="cam_ving" id="cam_ving"><label for="cam_ving"> Vingadores</label><br>
+                    <input type="checkbox" name="cam_rem" id="cam_rem"><label for="cam_rem"> Ricky e Morty</label><br>
+                    <input type="checkbox" name="cam_mk" id="cam_mk"><label for="cam_mk"> Mortal Kombat</label><br>
+                    <button type="reset">Limpar</button><br><br>
+                </form>
+
+                <form action="">
+                    <label class="title">Quadrinhos</label><br>
+                    <input type="checkbox" name="hq_GoT" id="hq_GoT"><label for="hq_GoT"> Game of Thrones</label><br>
+                    <input type="checkbox" name="hq_poke" id="hq_poke"><label for="hq_poke"> Pokémon</label><br>
+                    <input type="checkbox" name="hq_ving" id="hq_ving"><label for="hq_ving"> Vingadores</label><br>
+                    <input type="checkbox" name="hq_rem" id="hq_rem"><label for="hq_rem"> Ricky e Morty</label><br>
+                    <input type="checkbox" name="hq_mk" id="hq_mk"><label for="hq_mk"> Mortal Kombat</label><br>
+                    <button type="reset">Limpar</button><br><br>
+                </form>
+
+                <form action="">
+                    <label class="title">Canecas</label><br>
+                    <input type="checkbox" name="can_GoT" id="can_GoT"><label for="can_GoT"> Game of Thrones</label><br>
+                    <input type="checkbox" name="can_poke" id="can_poke"><label for="can_poke"> Pokémon</label><br>
+                    <input type="checkbox" name="can_ving" id="can_ving"><label for="can_ving"> Vingadores</label><br>
+                    <input type="checkbox" name="can_rem" id="can_rem"><label for="can_rem"> Ricky e Morty</label><br>
+                    <input type="checkbox" name="can_mk" id="can_mk"><label for="can_mk"> Mortal Kombat</label><br>
+                    <button type="reset">Limpar</button><br><br>
+                </form>
+               
+                <form>
+                    <label class="title">Acessórios</label><br>
+                    <input type="checkbox" name="ace_GoT" id="ace_GoT"><label for="ace_GoT"> Game of Thrones</label><br>
+                    <input type="checkbox" name="ace_poke" id="ace_poke"><label for="ace_poke"> Pokémon</label><br>
+                    <input type="checkbox" name="ace_ving" id="ace_ving"><label for="ace_ving"> Vingadores</label><br>
+                    <input type="checkbox" name="ace_rem" id="ace_rem"><label for="ace_rem"> Ricky e Morty</label><br>
+                    <input type="checkbox" name="ace_mk" id="ace_mk"><label for="ace_mk"> Mortal Kombat</label><br>
+                    <button type="reset">Limpar</button><br><br>
+                </form>
+                
+            </div>
+            
+            <div class="result">
+                <h4>
+                    RESULTADOS
+                </h4>
+                    <div>
+                        <img src="../GEEK ART (PI)/img/home.png" alt="">
+                    </div>
+                    <p>nome do item</p>
+                    <p>R$ 2,000</p><br>
+                    
+                    <div>
+                        <img src="../GEEK ART (PI)/img/home.png" alt="">
+                    </div>
+                    <p>nome do item</p>
+                    <p>R$ 2,000</p><br>
+                    
+                    <div>
+                        <img src="../GEEK ART (PI)/img/home.png" alt="">
+                    </div>
+                    <p>nome do item</p>
+                    <p>R$ 2,000</p><br>
+                    
+                    <div>
+                        <img src="../GEEK ART (PI)/img/home.png" alt="">
+                    </div>
+                    <p>nome do item</p>
+                    <p>R$ 2,000</p><br>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
